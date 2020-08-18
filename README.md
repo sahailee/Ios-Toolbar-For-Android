@@ -15,7 +15,7 @@ allprojects {
 Add the dependency to your app build.gradle:
 ```
 dependencies {
-	        implementation 'com.github.sahailee:Ios-Toolbar-For-Android:v1.0'
+	        implementation 'com.github.sahailee:Ios-Toolbar-For-Android:v1.1'
 	}
 ```
 
