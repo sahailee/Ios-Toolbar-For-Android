@@ -15,7 +15,7 @@ allprojects {
 Add the dependency to your app build.gradle:
 ```
 dependencies {
-	        implementation 'com.github.sahailee:Ios-Toolbar-For-Android:v1.0'
+	        implementation 'com.github.sahailee:Ios-Toolbar-For-Android:v1.1'
 	}
 ```
 
@@ -40,6 +40,16 @@ The four attributes are optional.
 ```
 Or you can use the design tab and drag in the IosToolbar.
 
+In your activity's on Create, set the support action bar to be the iosToolbar:
+```
+@Override
+    public void onCreate(Bundle savedInstance) {
+    			...
+			setSupportActionBar(iosToolbar);
+			
+	}
+
+```
 # Displaying the Up Button
 I recommend configuring the up button with however you are managing navigation.
 ```
