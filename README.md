@@ -1,7 +1,7 @@
 # Ios-Toolbar-For-Android
 [![](https://jitpack.io/v/sahailee/Ios-Toolbar-For-Android.svg)](https://jitpack.io/#sahailee/Ios-Toolbar-For-Android)
 
-A custom toolbar for Android Studio that looks and behaves like the IosNavigationController top bar.
+A custom toolbar for Android Studio that looks and behaves like the Ios UINavigationBar.
 
 # Demo
 
