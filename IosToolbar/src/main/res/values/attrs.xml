@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IosToolbar">
+        <attr name="title" format="string"/>
+        <attr name="up_button_text" format="string"/>
+        <attr name="show_up_button" format="boolean"/>
+        <attr name="show_search_bar" format="boolean"/>
+    </declare-styleable>
+</resources>
