@@ -53,6 +53,7 @@ I recommend configuring the up button with however you are managing navigation.
         });
     	iosToolbar.setUpButtonText("Previous Screen");
     	iosToolbar.enableUpButton();
+	// iosToolbar.disableUpButton(); // This will hide the up button
 ```
 
 # Scroll Views, Recycler Views, and Search Bars
