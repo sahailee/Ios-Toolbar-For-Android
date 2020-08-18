@@ -3,6 +3,9 @@
 
 A custom toolbar for Android Studio that looks and behaves like the IosNavigationController top bar.
 
+# Demo
+
+<img src="/demo/scroll.gif" width="250" height="500"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/demo/search.gif" width="250" height="500"/>
 # Download
 Add it in your root build.gradle at the end of repositories:
 ```
