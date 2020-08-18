@@ -89,8 +89,6 @@ public class IosToolbar extends Toolbar {
         LayoutInflater inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         inflater.inflate(R.layout.ios_toolbar, this);
-        type = Typeface.createFromAsset(getContext().getAssets(),"sf-ui-bold.otf");
-
     }
 
     private void initializeViews(Context context, AttributeSet attrs) {
@@ -136,7 +134,11 @@ public class IosToolbar extends Toolbar {
         else {
             disableUpButton();
         }
-        setUpTextAttributes();
+        try {
+            type = Typeface.createFromAsset(getContext().getAssets(),"sf-ui-bold.otf");
+            setUpTextAttributes();
+        } catch (Throwable e) {
+        }
     }
 
     private void setUpTextAttributes(){
