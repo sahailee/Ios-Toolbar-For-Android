@@ -40,6 +40,16 @@ The four attributes are optional.
 ```
 Or you can use the design tab and drag in the IosToolbar.
 
+In your activity's on Create, set the support action bar to be the iosToolbar:
+```
+@Override
+    public void onCreate(Bundle savedInstance) {
+    			...
+			setSupportActionBar(iosToolbar);
+			
+	}
+
+```
 # Displaying the Up Button
 I recommend configuring the up button with however you are managing navigation.
 ```
